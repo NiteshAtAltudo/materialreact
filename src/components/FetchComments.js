@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 function FetchComments() {
   const [data, setData] = useState(null);
   const token = "OjRueWFmZGxxdWxubHBqaHR0ZWxsN2VyaXdyd2M3bWVhNmcycnpqNHk3b21wamlnY2NrdWE=";
-  const headerOptions = {  
+  const headerOptions = {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
