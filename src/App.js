@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import StateExample from './components/StateExample';
 import { useEffect } from 'react';
 import { Container } from '@mui/material';
+import FetchComments from './components/FetchComments';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     >
       <div className="App">
         <StateExample/>
+        <FetchComments/>
       </div>
     </Container>
   );
